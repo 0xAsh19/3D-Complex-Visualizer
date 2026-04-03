@@ -1,16 +1,33 @@
 # 3D Complex Visualizer
 
-This project visualizes complex functions in 3D using Python.
+A Python-based visualization tool to explore complex functions in 3D space.
 
-## Features
-- Function-based input (f(z))
-- 3D visualization
-- Rotation controls
+## 🚀 Features
+- Visualizes complex functions f(z)
+- 3D surface plotting
+- Supports functions like:
+  - z
+  - z**2
+  - np.sin(z)
+  - np.exp(z)
+- Interactive rotation (Pygame version)
 
-## Libraries Used
-- numpy
-- matplotlib / pygame
+## 🧠 Concept
+A complex number is:
+z = x + iy
 
-## How to Run
-pip install numpy matplotlib pygame
-python main.py
+We visualize:
+|f(z)| = magnitude of function output
+
+X-axis → Real part  
+Y-axis → Imaginary part  
+Z-axis → Magnitude  
+
+## 📸 Output
+
+![Output](screenshots/output1.png)
+
+## ⚙️ Installation
+
+```bash
+pip install -r requirements.txt
